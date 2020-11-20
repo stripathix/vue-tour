@@ -91,7 +91,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "fb15");
+/******/ 	return __webpack_require__(__webpack_require__.s = "fae3");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -7203,7 +7203,7 @@ module.exports = function (fn, that, length) {
 
 /***/ }),
 
-/***/ "fb15":
+/***/ "fae3":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7226,10 +7226,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
-var es_function_name = __webpack_require__("b0c0");
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"10327c68-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VTour.vue?vue&type=template&id=20904f0d&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"36242a66-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VTour.vue?vue&type=template&id=20904f0d&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"v-tour"},[_vm._t("default",[(_vm.steps[_vm.currentStep])?_c('v-step',{key:_vm.currentStep,attrs:{"step":_vm.steps[_vm.currentStep],"previous-step":_vm.previousStep,"next-step":_vm.nextStep,"stop":_vm.stop,"skip":_vm.skip,"finish":_vm.finish,"is-first":_vm.isFirst,"is-last":_vm.isLast,"labels":_vm.customOptions.labels,"enabled-buttons":_vm.customOptions.enabledButtons,"highlight":_vm.customOptions.highlight,"stop-on-fail":_vm.customOptions.stopOnTargetNotFound,"debug":_vm.customOptions.debug},on:{"targetNotFound":function($event){return _vm.$emit('targetNotFound', $event)}}}):_vm._e()],{"currentStep":_vm.currentStep,"steps":_vm.steps,"previousStep":_vm.previousStep,"nextStep":_vm.nextStep,"stop":_vm.stop,"skip":_vm.skip,"finish":_vm.finish,"isFirst":_vm.isFirst,"isLast":_vm.isLast,"labels":_vm.customOptions.labels,"enabledButtons":_vm.customOptions.enabledButtons,"highlight":_vm.customOptions.highlight,"debug":_vm.customOptions.debug})],2)}
 var staticRenderFns = []
 
@@ -7244,6 +7241,9 @@ var es_array_filter = __webpack_require__("4de4");
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.for-each.js
 var es_array_for_each = __webpack_require__("4160");
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
+var es_function_name = __webpack_require__("b0c0");
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.get-own-property-descriptor.js
 var es_object_get_own_property_descriptor = __webpack_require__("e439");
@@ -7808,7 +7808,7 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var VTour = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"10327c68-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VStep.vue?vue&type=template&id=7c9c03f0&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"36242a66-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VStep.vue?vue&type=template&id=7c9c03f0&scoped=true&
 var VStepvue_type_template_id_7c9c03f0_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:'v-step-' + _vm.hash,staticClass:"v-step",attrs:{"id":'v-step-' + _vm.hash}},[_vm._t("header",[(_vm.step.header)?_c('div',{staticClass:"v-step__header"},[(_vm.step.header.title)?_c('div',{domProps:{"innerHTML":_vm._s(_vm.step.header.title)}}):_vm._e()]):_vm._e()]),_vm._t("content",[_c('div',{staticClass:"v-step__content"},[(_vm.step.content)?_c('div',{domProps:{"innerHTML":_vm._s(_vm.step.content)}}):_c('div',[_vm._v("This is a demo step! The id of this step is "+_vm._s(_vm.hash)+" and it targets "+_vm._s(_vm.step.target)+".")])])]),_vm._t("actions",[_c('div',{staticClass:"v-step__buttons"},[(!_vm.isLast && _vm.isButtonEnabled('buttonSkip'))?_c('button',{staticClass:"v-step__button v-step__button-skip",on:{"click":function($event){$event.preventDefault();return _vm.skip($event)}}},[_vm._v(_vm._s(_vm.labels.buttonSkip))]):_vm._e(),(!_vm.isFirst && _vm.isButtonEnabled('buttonPrevious'))?_c('button',{staticClass:"v-step__button v-step__button-previous",on:{"click":function($event){$event.preventDefault();return _vm.previousStep($event)}}},[_vm._v(_vm._s(_vm.labels.buttonPrevious))]):_vm._e(),(!_vm.isLast && _vm.isButtonEnabled('buttonNext'))?_c('button',{staticClass:"v-step__button v-step__button-next",on:{"click":function($event){$event.preventDefault();return _vm.nextStep($event)}}},[_vm._v(_vm._s(_vm.labels.buttonNext))]):_vm._e(),(_vm.isLast && _vm.isButtonEnabled('buttonStop'))?_c('button',{staticClass:"v-step__button v-step__button-stop",on:{"click":function($event){$event.preventDefault();return _vm.finish($event)}}},[_vm._v(_vm._s(_vm.labels.buttonStop))]):_vm._e()])]),_c('div',{staticClass:"v-step__arrow",class:{ 'v-step__arrow--dark': _vm.step.header && _vm.step.header.title }})],2)}
 var VStepvue_type_template_id_7c9c03f0_scoped_true_staticRenderFns = []
 
@@ -8247,23 +8247,10 @@ var VStep_component = normalizeComponent(
 
 
 
-var VueTour = {
-  install: function install(Vue, options) {
-    Vue.component(VTour.name, VTour);
-    Vue.component(VStep.name, VStep); // Object containing Tour objects (see VTour.vue) where the tour name is used as key
+// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib-no-default.js
+/* concated harmony reexport VTour */__webpack_require__.d(__webpack_exports__, "VTour", function() { return VTour; });
+/* concated harmony reexport VStep */__webpack_require__.d(__webpack_exports__, "VStep", function() { return VStep; });
 
-    Vue.prototype.$tours = {};
-  }
-};
-/* harmony default export */ var main = (VueTour);
-
-if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(VueTour);
-}
-// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
-
-
-/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (main);
 
 
 
